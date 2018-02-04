@@ -1,0 +1,87 @@
+c:\users\user\documents\visual studio 2015\Projects\YurtProjesi\YurtProjesi\bin\Debug\YurtProjesi.exe.config
+c:\users\user\documents\visual studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmAnaForm.resources
+c:\users\user\documents\visual studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmOgrenciKayıt.resources
+c:\users\user\documents\visual studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.Properties.Resources.resources
+c:\users\user\documents\visual studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2015\Projects\YurtProjesi\YurtProjesi\bin\Debug\YurtProjesi.exe
+c:\users\user\documents\visual studio 2015\Projects\YurtProjesi\YurtProjesi\bin\Debug\YurtProjesi.pdb
+c:\users\user\documents\visual studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.exe
+c:\users\user\documents\visual studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.pdb
+c:\users\user\documents\visual studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmOdemeler.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmBolumEkle.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmOgrenciListe.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmOgrenciDüzenle.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmGiderler.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmGiderListe.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmGiderDüzenle.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmGelirIstatistik.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmAdminGiris.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmAdminDüzenle.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmPersonelEkle.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmNotEkle.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\YurtProjesi\YurtProjesi\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\YurtProjesi\YurtProjesi\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\user\Documents\Visual Studio 2015\Projects\YurtProjesi\YurtProjesi\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\bin\Debug\YurtProjesi.exe.config
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.exe
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.pdb
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\bin\Debug\YurtProjesi.exe
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\bin\Debug\YurtProjesi.pdb
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmAdminGiris.resources
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmAnaForm.resources
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmBolumEkle.resources
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmGelirIstatistik.resources
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmGiderDüzenle.resources
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmGiderler.resources
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmGiderListe.resources
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmAdminDüzenle.resources
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmNotEkle.resources
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmOdemeler.resources
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmOgrenciDüzenle.resources
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmOgrenciKayıt.resources
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmOgrenciListe.resources
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmPersonelEkle.resources
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.Properties.Resources.resources
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\bin\Debug\YurtOtomasyonu.mdf
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\bin\Debug\YurtOtomasyonu_log.ldf
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\bin\Debug\YurtProjesi.exe.manifest
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\bin\Debug\YurtProjesi.application
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.exe.manifest
+C:\Users\user\Desktop\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.application
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\bin\Debug\YurtProjesi.exe.config
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.exe
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.pdb
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\bin\Debug\YurtOtomasyonu.mdf
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\bin\Debug\YurtOtomasyonu_log.ldf
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\bin\Debug\YurtProjesi.exe.manifest
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\bin\Debug\YurtProjesi.application
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\bin\Debug\YurtProjesi.exe
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\bin\Debug\YurtProjesi.pdb
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmAdminGiris.resources
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmAnaForm.resources
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmBolumEkle.resources
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmGelirIstatistik.resources
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmGiderDüzenle.resources
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmGiderler.resources
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmGiderListe.resources
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmAdminDüzenle.resources
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmNotEkle.resources
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmOdemeler.resources
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmOgrenciDüzenle.resources
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmOgrenciKayıt.resources
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmOgrenciListe.resources
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.frmPersonelEkle.resources
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.Properties.Resources.resources
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.exe.manifest
+C:\Users\user\Desktop\Masaüstü Projeler\YurtProjesi\YurtProjesi\obj\Debug\YurtProjesi.application

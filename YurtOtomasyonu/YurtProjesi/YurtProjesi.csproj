@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A4BD212C-016C-47FC-8C27-ECB5DA138B07}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YurtProjesi</RootNamespace>
+    <AssemblyName>YurtProjesi</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\user\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>YurtOtomasyonu</ProductName>
+    <PublisherName>YurtOtomasyonu</PublisherName>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>proje.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>06E2BC72B45A4E56B566B1913735BFC40A583957</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>YurtProjesi_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bolumler.cs" />
+    <Compile Include="frmAdminGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminGiris.Designer.cs">
+      <DependentUpon>frmAdminGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnaForm.Designer.cs">
+      <DependentUpon>frmAnaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBolumEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBolumEkle.Designer.cs">
+      <DependentUpon>frmBolumEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGelirIstatistik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGelirIstatistik.Designer.cs">
+      <DependentUpon>frmGelirIstatistik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGiderDüzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGiderDüzenle.Designer.cs">
+      <DependentUpon>frmGiderDüzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGiderler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGiderler.Designer.cs">
+      <DependentUpon>frmGiderler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGiderListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGiderListe.Designer.cs">
+      <DependentUpon>frmGiderListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminDüzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminDüzenle.Designer.cs">
+      <DependentUpon>frmAdminDüzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotEkle.Designer.cs">
+      <DependentUpon>frmNotEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOdemeler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOdemeler.Designer.cs">
+      <DependentUpon>frmOdemeler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOgrenciDüzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOgrenciDüzenle.Designer.cs">
+      <DependentUpon>frmOgrenciDüzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOgrenciKayıt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOgrenciKayıt.Designer.cs">
+      <DependentUpon>frmOgrenciKayıt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOgrenciListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOgrenciListe.Designer.cs">
+      <DependentUpon>frmOgrenciListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPersonelEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPersonelEkle.Designer.cs">
+      <DependentUpon>frmPersonelEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Genel.cs" />
+    <Compile Include="Kayıt.cs" />
+    <Compile Include="Odalar.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="YurtOtomasyonuDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YurtOtomasyonuDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="YurtOtomasyonuDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YurtOtomasyonuDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="YurtOtomasyonuDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YurtOtomasyonuDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="YurtOtomasyonuDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YurtOtomasyonuDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="YurtOtomasyonuDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YurtOtomasyonuDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="YurtOtomasyonuDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YurtOtomasyonuDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="YurtOtomasyonuDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YurtOtomasyonuDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="YurtOtomasyonuDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YurtOtomasyonuDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="YurtOtomasyonuDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YurtOtomasyonuDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="YurtOtomasyonuDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YurtOtomasyonuDataSet9.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmAdminGiris.resx">
+      <DependentUpon>frmAdminGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnaForm.resx">
+      <DependentUpon>frmAnaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBolumEkle.resx">
+      <DependentUpon>frmBolumEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGelirIstatistik.resx">
+      <DependentUpon>frmGelirIstatistik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGiderDüzenle.resx">
+      <DependentUpon>frmGiderDüzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGiderler.resx">
+      <DependentUpon>frmGiderler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGiderListe.resx">
+      <DependentUpon>frmGiderListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminDüzenle.resx">
+      <DependentUpon>frmAdminDüzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotEkle.resx">
+      <DependentUpon>frmNotEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOdemeler.resx">
+      <DependentUpon>frmOdemeler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOgrenciDüzenle.resx">
+      <DependentUpon>frmOgrenciDüzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOgrenciKayıt.resx">
+      <DependentUpon>frmOgrenciKayıt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOgrenciListe.resx">
+      <DependentUpon>frmOgrenciListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPersonelEkle.resx">
+      <DependentUpon>frmPersonelEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="YurtOtomasyonuDataSet.xsc">
+      <DependentUpon>YurtOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YurtOtomasyonuDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YurtOtomasyonuDataSet.xss">
+      <DependentUpon>YurtOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet1.xsc">
+      <DependentUpon>YurtOtomasyonuDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YurtOtomasyonuDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YurtOtomasyonuDataSet1.xss">
+      <DependentUpon>YurtOtomasyonuDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet2.xsc">
+      <DependentUpon>YurtOtomasyonuDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YurtOtomasyonuDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YurtOtomasyonuDataSet2.xss">
+      <DependentUpon>YurtOtomasyonuDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet3.xsc">
+      <DependentUpon>YurtOtomasyonuDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YurtOtomasyonuDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YurtOtomasyonuDataSet3.xss">
+      <DependentUpon>YurtOtomasyonuDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet4.xsc">
+      <DependentUpon>YurtOtomasyonuDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YurtOtomasyonuDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YurtOtomasyonuDataSet4.xss">
+      <DependentUpon>YurtOtomasyonuDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet5.xsc">
+      <DependentUpon>YurtOtomasyonuDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YurtOtomasyonuDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YurtOtomasyonuDataSet5.xss">
+      <DependentUpon>YurtOtomasyonuDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet6.xsc">
+      <DependentUpon>YurtOtomasyonuDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YurtOtomasyonuDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YurtOtomasyonuDataSet6.xss">
+      <DependentUpon>YurtOtomasyonuDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet7.xsc">
+      <DependentUpon>YurtOtomasyonuDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YurtOtomasyonuDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YurtOtomasyonuDataSet7.xss">
+      <DependentUpon>YurtOtomasyonuDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet8.xsc">
+      <DependentUpon>YurtOtomasyonuDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YurtOtomasyonuDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YurtOtomasyonuDataSet8.xss">
+      <DependentUpon>YurtOtomasyonuDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet9.xsc">
+      <DependentUpon>YurtOtomasyonuDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YurtOtomasyonuDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YurtOtomasyonuDataSet9.xss">
+      <DependentUpon>YurtOtomasyonuDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="YurtProjesi_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="proje.ico" />
+    <Content Include="YurtOtomasyonu.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="YurtOtomasyonu_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SqlServer.SqlLocalDB.11.1">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2012 Express LocalDB</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
